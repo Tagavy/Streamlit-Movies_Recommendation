@@ -72,7 +72,7 @@ def top_n_movie(movie_id,n):
 title_var = 273
 title = movies.loc[title_var, "title"]
 
-items = pickle.load(open('./Item_movies.sav', 'rb'))
+#items = pickle.load(open('./Item_movies.sav', 'rb'))
 
 with st.container():
     #st.subheader("Item Based Movie Recommendation System")
